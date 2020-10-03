@@ -1,7 +1,0 @@
-chair
-table
-desk
-window
-door
-keyboard
-mouse

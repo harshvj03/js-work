@@ -1,9 +1,0 @@
-<!DOCTYPE movies[
-<!ELEMENT movies (movie)>
-<!ELEMENT movie (title,artist,country,year)>
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT artist (#PCDATA)>
-<!ELEMENT country (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
-
-]>
