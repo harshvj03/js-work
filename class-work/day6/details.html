@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Details</h1>
+    <div id="visit-counter">
+
+    </div>
+    <div id="get-title"></div>
+
+    <script>
+        var x = JSON.parse(localStorage.getItem("products"));
+        // var p = document.createElement('p');
+        var y = document.getElementById("get-title");
+        for(var i =0; i < x.length;i++){
+            var p = document.createElement('p');
+            var p1 = document.createElement('p');
+            console.log(x[i].title);
+            p1.innerHTML = x[i].image
+            // p.innerHTML =  x[i].title;
+            p.innerHTML = x[i].title;
+            y.appendChild(p);
+            y.appendChild(p1);
+
+        }
+       
+
+        var z = JSON.parse(sessionStorage.getItem("visits"));
+        console.log('count = ' +  z.visit);
+        var a = document.getElementById('visit-counter');
+        var p2 = document.createElement('p');
+        p2.innerHTML = 'visits : ' + z.visit;
+        a.appendChild(p2);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    width:100%;
+    background-color:  #1aa6b7;
+}
+
+#top-container{
+    text-align: center;
+    width: 20%;
+    height: 28%;
+    background-color: #e8e8e8;
+    color : #107480;
+    margin : 200px auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 1px -1px 15px 19px #e8e8e8; 
+    box-shadow: 1px -1px 15px 19px #f8f6f6;
+}
+
+input{
+    margin:5px;
+}
+
+#email{
+    margin-left: 36px;
+}
+
+#labelMale{
+    margin-left: 36px;
+}
+
+#labelGender{
+    margin-right: 26px;
+}
