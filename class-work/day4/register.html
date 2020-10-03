@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    
+</head>
+<body>
+
+    
+    <form >
+        
+        <table style="margin: 0 auto;">
+            <tr>
+                <td>
+                    <h1>Registration</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="first-name">First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="first-name" id="first">
+                </td>
+
+                <td>
+                    <p id="error_first"></p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="last-name">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="last-name" id="last">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email-user" id="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Gender">Gender</label>
+                </td>
+                <td>
+                    
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="account">Choose Account</label></td>
+                <td>
+                    
+                    <select name="" id="account">
+                        <option value="Saving">Saving</option>
+                        <option value="Current">Current</option>
+                        <option value="Dmat">Dmat</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- <button type="button" onclick="getForm()" style="padding: 15px;">Submit</button> -->
+                    <button type="button" onclick="getForm()"  style="padding: 15px;">Submit</button>
+                </td>
+                <td>
+                    <a href="./login.html">Login</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>

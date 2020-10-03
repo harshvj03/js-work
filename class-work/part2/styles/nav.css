@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#carousel-container{
+    margin-top: 61px;
+}
+
+.jumbotron{
+    margin-top: 200px;
+    width: 40%;
+    margin: 200px auto 0 auto;
+    /* background-color: white; */
+}
+
+.heading{
+    text-align: center;
+}
+
+.anywhere-button{
+    text-align: center;
+}
+
+.user-table{
+    width: 40%;
+    margin: 0 auto 0 auto;
+}
+
+.getdata{
+    text-align: center;
+}

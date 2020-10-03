@@ -1,0 +1,29 @@
+html{
+    width: 100%;
+}
+
+body{
+    background-color: #726a95;
+    margin : 100px auto auto;
+}
+
+#container-login{
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 5%;
+    
+}
+
+.button-sub{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+#container-home{
+    display: flex;
+}

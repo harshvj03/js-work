@@ -1,0 +1,39 @@
+
+html{
+    background-color: #dbe3e5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width:50%;
+    
+    margin : 10% auto ;
+    background-color: #dbe3e5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 200px;
+    background-color: #70adb5;
+    text-align: center;
+    margin: auto auto;
+    border : 1px solid black;
+}
+
+h1{
+    color : #dbe3e5
+}
+.label1{
+    color : #dbe3e5;
+    display: inline-block;
+    padding-right : 2%;
+    width: 15%;
+}
+
+.class1{
+    
+    display: inline-block;
+    
+    width: 20%;
+}

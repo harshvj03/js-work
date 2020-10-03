@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        
+
+        <table style="margin: 0 auto; margin-top: 250px;">
+
+            <tr>
+                <td>
+                    <h1 style="margin-top : 40px;border-top: 3px solid #3d7e9a;padding-top: 40px;">Login</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="user">User Name</label>
+                </td>
+                <td>
+                    <input type="text" id="user">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="passwd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <button type="submit" onclick="window.location.href = './register.html'"> Register</button>  
+                </td>
+                <td>
+                    <button type="submit"  onclick="validate()">Login</button>
+                    <!-- <button type="submit" id="login-submit">Submit</button> -->
+                </td>
+                
+            </tr>
+        </table>
+
+       
+        
+        
+
+        <script src="scripts/app.js"></script>
+    </div>
+
+
+</body>
+</html>
